@@ -1,0 +1,18 @@
+.Filter {
+    background-image: url('../bg.jpg');
+    height: 200px;
+    /* font-size: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Filter form {
+    margin-left: 20px;
+}
+.Filter form input {
+    font-size: 20px;
+}
+.submit {
+    width: 100px;
+    height: 30px;
+}

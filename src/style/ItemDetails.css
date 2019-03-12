@@ -1,0 +1,7 @@
+.ItemDetails .title {
+    font-size: 30px;
+    text-align: center;
+}
+.ItemDetails .description {
+    margin: 50px; 
+}

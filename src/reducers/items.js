@@ -21,3 +21,23 @@ export const video = (state='',action) => {
             return state;
     }
 }
+export const audio = (state='',action) => {
+    switch(action.type) {
+        case 'LOAD_AUDIOS':
+            var filtered = action.audios.filter(audio => audio.includes('orig.mp3'));
+            return filtered;
+        default:
+            return state;
+    }
+}
+export const loading = (state='true',action) => {
+    // console.log(action.type);
+    switch(action.type) {
+        case 'START_LOADING':
+            return true;
+        case 'STOP_LOADING':
+            return false;
+        default:
+            return state;
+    }
+}

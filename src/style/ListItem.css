@@ -1,0 +1,14 @@
+.ListItem {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #333;
+    /* height: 100%; */
+}
+.ListItem:hover {
+    background-color: #444;
+}
+.ListItem .title {
+    margin-top: 20px;
+    color: #fff;
+}
